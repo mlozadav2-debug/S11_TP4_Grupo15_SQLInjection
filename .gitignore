@@ -1,0 +1,25 @@
+
+# Entorno virtual
+.venv/
+venv/
+
+# Base de datos local
+usuarios.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema Mac
+.DS_Store
+
+# Configuraciones privadas
+.env
+.env.*
+
+# Registros
+*.log
